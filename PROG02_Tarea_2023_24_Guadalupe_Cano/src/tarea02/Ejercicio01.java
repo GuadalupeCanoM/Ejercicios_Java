@@ -8,6 +8,7 @@ package tarea02;
 import java.util.Random;
 import java.util.Scanner;
 
+
 /**
  * @author LUIS NAVARRO ORTIZ
  */
