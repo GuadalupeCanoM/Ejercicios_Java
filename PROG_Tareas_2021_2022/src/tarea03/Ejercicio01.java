@@ -75,7 +75,6 @@ public class Ejercicio01 {
         System.out.printf("Cuenta conjunta creada: %s \n\n", cuentaFamiliar);
         
         
-        
         //----------------------------------------------
         //       Procesamiento + Salida de Resultados
         //----------------------------------------------
@@ -84,23 +83,36 @@ public class Ejercicio01 {
         // que el procesamiento y la salida de resultado van unidos y "mezclados"
         
         // 3.- Obtención de información de la cuenta privada
-
-
-
-
-        
-
-        
+        System.out.println("Prueba de los getters de la cuenta privada: ");
+        System.out.println("----------------------------------------------");
+        System.out.printf("ID: %s \n" ,cuentaPrivada.getId());
+        System.out.printf("Fecha de creación: %s \n", cuentaPrivada.getFechaCreacion());
+        System.out.printf("Límite de descubierto: %s \n", cuentaPrivada.getLimiteDescubierto());
+        System.out.printf("Está embargada: %s \n", cuentaPrivada.isEmbargada());
+        System.out.printf("Está en descubierto: %s \n", cuentaPrivada.isDescubierta());
+        System.out.printf("Número de días que lleva la cuenta abierta: %s \n", cuentaPrivada.getDiasCuenta());
+       
         // 4.- Realización de operaciones sobre las cuentas
+        System.out.println("Realización de operaciones sobre las cuentas");
+        System.out.println("----------------------------------------------");
+        // Ingresar 100.00 euros en la cuenta familiar
+        System.out.println("Ingresamos 100 euros en la cuenta familiar...");
+        cuentaFamiliar.ingresar(100.00);
+        
+        // Extraer 100.00 eruso de la cuenta conjunta
+        System.out.println("Extramos 100 euros de la cuenta conjunta...");
+        cuentaConjunta.extraer(100.00);
+        
+        // Transferir 1100.00 euros de la cuenta privada a la familiar
+        System.out.println("Transferimos 1100 euros de la cuenta privada a la familiar...");
+        cuentaPrivada.transferir(1100.00, cuentaFamiliar);
 
-        
-        
-        
-        
-        
-        
-        
         // 5.- Estado final de las cuentas
+        System.out.println("Estado final de las cuentas: ");
+        System.out.println("-----------------------------");
+        System.out.printf("Estado final de la cuanta privada: %s \n", cuentaPrivada.toString());
+        System.out.printf("Estado final de la cuenta conjunta: %s \n", cuentaConjunta.toString());
+        System.out.printf("Estado final de la cuenta familiar: %s \n", cuentaFamiliar.toString());
 
         
         
