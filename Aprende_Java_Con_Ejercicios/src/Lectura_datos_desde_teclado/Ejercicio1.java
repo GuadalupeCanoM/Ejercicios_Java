@@ -2,6 +2,7 @@ package Lectura_datos_desde_teclado;
 
 import java.util.Scanner;
 
+
 /**
  *
  * @author Guadalupe Cano Moyano
