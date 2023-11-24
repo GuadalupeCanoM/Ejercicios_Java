@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"libtarea3","l":"CuentaBancaria"},{"p":"libtarea3","l":"Dado"}]
