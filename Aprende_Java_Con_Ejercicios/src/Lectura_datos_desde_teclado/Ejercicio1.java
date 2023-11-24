@@ -26,6 +26,7 @@ public class Ejercicio1 {
              int resultado = numero * numero2;
              
              System.out.println("El resultado de multiplicar " + numero + "*" + numero2 + " es igual a " + resultado);
+             
       
     }
 
