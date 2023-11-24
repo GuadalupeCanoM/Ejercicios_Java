@@ -36,7 +36,7 @@ public class Ejercicio2 {
         //----------------------------------------------
         //                Entrada de datos 
         //----------------------------------------------
-        System.out.println("AN�LISIS DEL AÑO");
+        System.out.println("ANÁLISIS DEL AÑO");
         System.out.println("----------------");
         System.out.print("Introduzca un año (entre 1801-2100): ");
         anyo = teclado.nextInt();
