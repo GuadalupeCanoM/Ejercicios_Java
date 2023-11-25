@@ -1,7 +1,7 @@
 /*
  * Ejercicio 02
  */
-package tarea02;
+package Tarea2;
 
 import java.util.Scanner;
 
@@ -11,35 +11,33 @@ import java.util.Scanner;
  */
 public class Ejercicio02 {
 
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
 
         //----------------------------------------------
-        //    Declaración de variables y constantes
+        //    Declaraciï¿½n de variables y constantes
         //----------------------------------------------
         // Constantes
        
-        // Variables de entrada (aquí­ se definen las variables que recibirán valores, si fueran necesarias)
+        // Variables de entrada (aquÃ­ se definen las variables que recibirï¿½n valores, si fueran necesarias)
         int dia, mes;
-        // Variables de salida (aquí­ se definen las variables que almacenarán resultados y se mostrarán al usuario, si fueran necesarias)
+        // Variables de salida (aquÃ­ se definen las variables que almacenarï¿½n resultados y se mostrarÃ¡n al usuario, si fueran necesarias)
         String signo = "";
         boolean diaValido = true;
         boolean mesValido = true;
         
-        // Clase Scanner para petición de datos al usuario a tracés del teclado
+        // Clase Scanner para peticiï¿½n de datos al usuario a travÃ©s del teclado
         Scanner teclado = new Scanner(System.in);
         //----------------------------------------------
         //               Entrada de datos 
         //----------------------------------------------
-        System.out.println("Ejercicio 2. Signos del Zodíaco");
+        System.out.println("Ejercicio 2. Signos del Zodï¿½aco");
         System.out.println("----------------------------------------------------");
 
-        System.out.println("Introduce el número del MES");
+        System.out.println("Introduce el nï¿½mero del MES");
         mes = teclado.nextInt();
 
-        System.out.println("Introduce el DÍA del mes");
+        System.out.println("Introduce el Dï¿½A del mes");
         dia = teclado.nextInt();
 
         //----------------------------------------------
@@ -105,7 +103,7 @@ public class Ejercicio02 {
                 //Mayo
             case 5:
                 if (dia >= 22) {
-                    signo = "Géminis";
+                    signo = "Gï¿½minis";
                 } else {
                     signo = "Tauro";
                 }
@@ -113,9 +111,9 @@ public class Ejercicio02 {
                 //Junio
             case 6:
                 if (dia >= 23) {
-                    signo = "Cáncer";
+                    signo = "Cï¿½ncer";
                 } else {
-                    signo = "Géminis";
+                    signo = "Gï¿½minis";
                 }
                 break;
                 //Julio
@@ -123,7 +121,7 @@ public class Ejercicio02 {
                 if (dia >= 24) {
                     signo = "Leo";
                 } else {
-                    signo = "Cáncer";
+                    signo = "Cï¿½ncer";
                 }
                 break;
                 //Agosto

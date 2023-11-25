@@ -1,7 +1,7 @@
 /*
  * Juego de las Siete y Media
  */
-package tarea02;
+package Tarea2;
 
 import java.util.Random;
 
@@ -11,32 +11,30 @@ import java.util.Random;
  */
 public class Ejercicio03 {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
 
         //----------------------------------------------
-        //    Declaración de variables y constantes
+        //    Declaraciï¿½n de variables y constantes
         //----------------------------------------------
-        // Variables de entrada (aquí se definen las variables que recibirán valores, si fueran necesarias)
-        // Variables de salida (aquí­ se definen las variables que almacenarán resultados y se mostrarán al usuario, si fueran necesarias)
-        // Clase Scanner para petición de datos al usuario a través del teclado
+        // Variables de entrada (aquï¿½ se definen las variables que recibirï¿½n valores, si fueran necesarias)
+        // Variables de salida (aquï¿½ se definen las variables que almacenarï¿½n resultados y se mostrarï¿½n al usuario, si fueran necesarias)
+        // Clase Scanner para peticiï¿½n de datos al usuario a travï¿½s del teclado
         Random r = new Random();
         float banca;
         //----------------------------------------------
         //               Entrada de datos 
         //----------------------------------------------
 
-        // Generamos un número entre 4 y 7.5
+        // Generamos un nÃºmero entre 4 y 7.5
         /* La clase Random es una clase de Java que nos sirve para generar elementos aleatorios
-            en este caso el objeto "r", consigue a través de su mÃ©todo nextInt(número), generar
-            un número aleatorio entero entre 0 y número-1, por ejemplo r.nextInt(4), generará
-            un número entero entre 0 y 3, es decir, podrá devolver 0,1,2 o 3 cada vez que se 
+            en este caso el objeto "r", consigue a travÃ©s de su mÃ©todo nextInt(nÃºmero), generar
+            un nÃºmero aleatorio entero entre 0 y nÃºmero-1, por ejemplo r.nextInt(4), generarÃ¡
+            un nÃºmero entero entre 0 y 3, es decir, podrÃ¡ devolver 0,1,2 o 3 cada vez que se 
             utilice.
-            En la siguiente lí­nea generamos un número entre  0 y 3, al que le sumamos 4, de esta
-            forma la banca obtendrá siempre un número bastante competivo, entre 4 y 7.
-            Posteriormente utilizamos este mismo método sin parámetros, generando un entero entre
+            En la siguiente lÃ­nea generamos un nï¿½mero entre  0 y 3, al que le sumamos 4, de esta
+            forma la banca obtendrÃ¡ siempre un nï¿½mero bastante competivo, entre 4 y 7.
+            Posteriormente utilizamos este mismo mï¿½todo sin parÃ¡metros, generando un entero entre
             0 y 2 elevado a 32
          */
         System.out.println("Ejercicio 4. Juego Siete y Media");
