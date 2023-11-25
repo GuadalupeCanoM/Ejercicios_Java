@@ -1,4 +1,4 @@
-package tarea03;
+package Tarea3;
 
 // Incluir los imports que se necesiten
 import java.time.LocalTime;

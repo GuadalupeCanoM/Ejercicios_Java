@@ -1,4 +1,4 @@
-package tarea03;
+package Tarea3;
 
 import java.time.LocalDate;
 import java.time.Month;
