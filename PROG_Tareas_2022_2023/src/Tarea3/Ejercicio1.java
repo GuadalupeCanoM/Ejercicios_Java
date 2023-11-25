@@ -1,8 +1,9 @@
-package tarea03;
+package Tarea3;
 
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
+import tarea03.CartonBingo;
 
 /**
  * Ejercicio 1: Creación y uso de cartones de bingo. <br>

@@ -1,4 +1,4 @@
-package tarea03;
+package Tarea3;
 
 /**
  * Ejercicio 2: ¡A jugar! Utilización de las clases CartonBingo y Bombo para simular una partida.<br>

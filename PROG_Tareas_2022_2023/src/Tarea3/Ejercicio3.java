@@ -1,4 +1,4 @@
-package tarea03;
+package Tarea3;
 
 /**
  * Ejercicio 3: Vamos al cine.<br>
