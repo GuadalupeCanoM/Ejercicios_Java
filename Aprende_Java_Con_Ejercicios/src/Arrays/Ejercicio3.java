@@ -24,7 +24,7 @@ public class Ejercicio3 {
         }
 
         System.out.println("Los números introducidos al revés son los siguientes: ");
-        for (int i = 9; i >= 0; i--) {
+        for (int i = numeros.length-1; i >= 0; i--) {
             System.out.println(numeros[i]);
         }
 
