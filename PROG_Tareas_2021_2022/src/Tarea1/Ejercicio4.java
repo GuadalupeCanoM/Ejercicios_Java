@@ -4,7 +4,6 @@ package Tarea1;
 import java.util.Scanner;
 
 
-
 /**
  *
  * @author Guadalupe Cano Moyano
@@ -14,7 +13,7 @@ public class Ejercicio4 {
     
          public static void main(String[] args) {
     //----------------------------------------------
-        //          Declaraci?n de variables 
+        //          Declaración de variables 
         //----------------------------------------------
         // Constantes
         final double COEFICIENTE_CONSUMO_PRIMERA_ETAPA = 2;
@@ -27,7 +26,7 @@ public class Ejercicio4 {
         double litrosConsumidosPrimerRecorrido, litrosConsumidosSegundoRecorrido, litrosSobrantes;
 
         // Variables auxiliares
-        // Clase Scanner para petici?n de datos de entrada
+        // Clase Scanner para petición de datos de entrada
         Scanner teclado = new Scanner(System.in);
 
         //----------------------------------------------
@@ -47,7 +46,7 @@ public class Ejercicio4 {
         // Segundo c?lculo: litros consumidos en el segundo recorrido. En la segunda etapa se consumen el 25%
         litrosConsumidosSegundoRecorrido = litrosConsumidosPrimerRecorrido / COEFICIENTE_CONSUMO_SEGUNDA_ETAPA;
 
-        // Litros sobrantes en el dep?sito. Son los litros que quedaran al finalizar los dos trayectos.
+        // Litros sobrantes en el depósito. Son los litros que quedaran al finalizar los dos trayectos.
         litrosSobrantes = litrosIniciales - (litrosConsumidosPrimerRecorrido + litrosConsumidosSegundoRecorrido);
 
         //----------------------------------------------    

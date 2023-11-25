@@ -2,13 +2,13 @@
 package tarea1;
 
 /**
- * Provincias de Andaluc?a.
+ * Provincias de AndalucÃ­a.
  *
  * @author Guadalupe Cano
  */
 public class Ejercicio1 {
 
-    // Definición del enum
+    // Definiciï¿½n del enum
     public enum provincias {
         ALMERIA, CADIZ, CORDOBA, GRANADA, HUELVA, JAEN, MALAGA, SEVILLA
     }

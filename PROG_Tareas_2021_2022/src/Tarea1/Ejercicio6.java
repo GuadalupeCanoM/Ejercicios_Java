@@ -1,10 +1,7 @@
 
-
 package Tarea1;
 
 import java.util.Scanner;
-
-
 
 /**
  *
@@ -29,7 +26,7 @@ public class Ejercicio6 {
         char primeraLetra, ultimaLetra;
         int letra;
 
-        // Clase Scanner para petici?n de datos de entrada
+        // Clase Scanner para petición de datos de entrada
         Scanner teclado = new Scanner(System.in);
 
         //----------------------------------------------
@@ -43,19 +40,19 @@ public class Ejercicio6 {
         //----------------------------------------------
         //                 Procesamiento 
         //----------------------------------------------
-        //El texto contiene m?s de cinco caracteres,
+        //El texto contiene más de cinco caracteres,
         masDeCincoCaracteres = texto.length() > 5;
 
-        //El texto comienza por una letra may?scula,
-        //Con esta instrucci?n estraemos el primer caracter. (0).
+        //El texto comienza por una letra mayúscula,
+        //Con esta instrucción estraemos el primer caracter. (0).
         primeraLetra = texto.charAt(0);
-        //Hago la comparaci?n mediante ASCII. Si el primer caracter se encuentra entre A y Z es verdadero. 
+        //Hago la comparación mediante ASCII. Si el primer caracter se encuentra entre A y Z es verdadero. 
         primeraLetraMayuscula = primeraLetra >= 'A' && primeraLetra <= 'Z';
 
-        //El texto termina con una letra min?scula.
-        //Con esta instrucci?n extraemos el ?ltimo caracter. 
+        //El texto termina con una letra minúscula.
+        //Con esta instrucción extraemos el ?ltimo caracter. 
         ultimaLetra = texto.charAt(texto.length() - 1);
-        //Al pasar los caracteres a y z a char se puede comparar con la ?ltima letra extraida del texto
+        //Al pasar los caracteres a y z a char se puede comparar con la última letra extraida del texto
         ultimaLetraMinuscula = ultimaLetra >= 'a' && ultimaLetra <= 'z';
 
         //El texto finaliza con unos puntos suspensivos ("...").
@@ -70,8 +67,8 @@ public class Ejercicio6 {
         System.out.println("RESULTADO");
         System.out.println("---------");
         System.out.println("El texto contiene m?s de cinco caracteres: " + masDeCincoCaracteres);
-        System.out.println("El texto comienza con una letra may?scula: " + primeraLetraMayuscula);
-        System.out.println("El texto termina con una letra min?scula: " + ultimaLetraMinuscula);
+        System.out.println("El texto comienza con una letra mayúscula: " + primeraLetraMayuscula);
+        System.out.println("El texto termina con una letra minúscula: " + ultimaLetraMinuscula);
         System.out.println("El texto termina con unos puntos suspensivos: (...) " + finalizaPuntosSuspensivos);
 
         System.out.println();

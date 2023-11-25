@@ -12,8 +12,8 @@ public class Ejercicio4 {
 
     
          public static void main(String[] args) {
-//----------------------------------------------
-        //          Declaración de variables 
+        //----------------------------------------------
+        //          DeclaraciÃ³n de variables 
         //----------------------------------------------
         // Constantes
 
@@ -27,7 +27,7 @@ public class Ejercicio4 {
         int puntuacionFinal;
         // Variables auxiliares
         int extensionTexto = 5;
-        // Clase Scanner para petición de datos
+        // Clase Scanner para peticiï¿½n de datos
         Scanner teclado = new Scanner(System.in);
 
         //----------------------------------------------
@@ -45,19 +45,19 @@ public class Ejercicio4 {
             System.out.print("Introduzca un texto con al menos 5 caracteres:");
             texto = teclado.nextLine();
 
-        //Volverá a repetir el bucle mientras el texto que introduzca el usuario por teclado sea menor que extensionTexto(que es 5)
+        //Volverï¿½ a repetir el bucle mientras el texto que introduzca el usuario por teclado sea menor que extensionTexto(que es 5)
         } while (texto.length() < extensionTexto);
 
         do {
             System.out.print("Introduzca el valor del multiplicador (entre 1-3):");
             multiplicador = teclado.nextInt();
 
-        //Volverá a repetir el bucle mientras el valor del multiplicador sea menor a 1 y mayor a 3.
+        //Volverï¿½ a repetir el bucle mientras el valor del multiplicador sea menor a 1 y mayor a 3.
         } while (multiplicador < 1 || multiplicador > 3);
 
-        //En cuanto i valga lo mismo que la longitud del texto introducida por el usuario la condición ya no se cumpliaría.
+        //En cuanto i valga lo mismo que la longitud del texto introducida por el usuario la condiciÃ³n ya no se cumpliarÃ­a.
         for (int i = 0; i < texto.length(); i++) {
-            //Obtención del caracter en una posición de la cadena
+            //ObtenciÃ³n del caracter en una posiciÃ³n de la cadena
             caracter = texto.charAt(i);
 
             //Cada vocal mayuscula o minuscula vale un punto
@@ -81,17 +81,17 @@ public class Ejercicio4 {
                 case 'z':
                     valorPalabra += +2;
                     break;
-                //La letra X (mayuscula) valdrá cinco puntos
+                //La letra X (mayuscula) valdrÃ¡ cinco puntos
                 case 'X':
                     valorPalabra += +5;
                     break;
                 default:
-                    //Cualquier otro caracter (tanto si es letra como si es otra cosa), restará un punto
+                    //Cualquier otro caracter (tanto si es letra como si es otra cosa), restarÃ¡ un punto
                     valorPalabra += - 1;
 
             }
         }
-        //Multiplicamos el valor de la palabra (según la puntuación del char) por el valor del multiplicador
+        //Multiplicamos el valor de la palabra (segÃºn la puntuaciï¿½n del char) por el valor del multiplicador
         puntuacionFinal = valorPalabra * multiplicador;
 
         //----------------------------------------------

@@ -14,10 +14,10 @@ public class Ejercicio5 {
          public static void main(String[] args) {
 
         //----------------------------------------------
-        //          Declaración de variables 
+        //          DeclaraciÃ³n de variables 
         //----------------------------------------------
         // Constantes
-        //Las declaro como constantes por si en algún momento se decidiera cambiar el minimo y maximo de filas y columnas, poder modificar el código de manera rápida.
+        //Las declaro como constantes por si en algÃºn momento se decidiera cambiar el minimo y maximo de filas y columnas, poder modificar el cÃ³digo de manera rÃ¡pida.
         final int MIN_FILAS = 2;
         final int MAX_FILAS = 10;
         final int MIN_COLUMNAS = 2;
@@ -36,34 +36,34 @@ public class Ejercicio5 {
         String cadenaResultado = "";
         String tipoCaja;
         // Variables auxiliares
-        // Clase Scanner para petición de datos
+        // Clase Scanner para peticiï¿½n de datos
         Scanner teclado = new Scanner(System.in);
 
         
         //----------------------------------------------
         //                Entrada de datos 
         //----------------------------------------------
-        System.out.println("CONSTRUCCIÓN DE CAJAS");
+        System.out.println("CONSTRUCCIÃ“N DE CAJAS");
         System.out.println("---------------------");
         do {
-            System.out.print("Introduzca un número de filas (2-10):");
+            System.out.print("Introduzca un nÃºmero de filas (2-10):");
             numeroFilas = teclado.nextInt();
-            // Si el número de filas introducido es menor de 2 y mayor de 10 volverá a pedir que se introduzca un número correcto.
+            // Si el nï¿½mero de filas introducido es menor de 2 y mayor de 10 volverï¿½ a pedir que se introduzca un nï¿½mero correcto.
         } while (numeroFilas < MIN_FILAS || numeroFilas > MAX_FILAS);
 
         do {
-            System.out.print("Introduzca número de columnas (2-10):");
+            System.out.print("Introduzca nÃºmero de columnas (2-10):");
             numeroColumnas = teclado.nextInt();
-            // Si el número de columnas introducido es menor de 2 y mayor de 10 volverá a pedir que se introduzca un número correcto.
+            // Si el nï¿½mero de columnas introducido es menor de 2 y mayor de 10 volverï¿½ a pedir que se introduzca un nï¿½mero correcto.
         } while (numeroColumnas < MIN_COLUMNAS || numeroColumnas > MAX_COLUMNAS);
 
-        System.out.println("¿Caja rellena? (0:vacía, cualquier otro número rellena):");
+        System.out.println("Â¿Caja rellena? (0:vacÃ­a, cualquier otro nÃºmero rellena):");
         rellenoCaja = teclado.nextInt();
 
         //-----------------------------------------------------------
         //                 Procesamiento y salida de resultados
         //-----------------------------------------------------------
-        //línea superior (es la misma que utilizamos para la linea inferior)
+        //lï¿½nea superior (es la misma que utilizamos para la linea inferior)
         cadenaResultado += esquina;  //Esquina superior izquierda
         //Indico que el bucle comience en dos para que no pise las esquinas (+)
         for (int i = 2; i < numeroColumnas; i++) {
@@ -77,10 +77,10 @@ public class Ejercicio5 {
             cadenaResultado += lineaVertical; //Columna izquierda
             //De nuevo empiezo en dos para no pisar las esquinas
             for (int j = 2; j < numeroColumnas; j++) {
-                //Si el usuario mete un 0, saldrá por pantalla la caja vacía.
+                //Si el usuario mete un 0, saldrï¿½ por pantalla la caja vacï¿½a.
                 if (rellenoCaja == vacia) {
                     cadenaResultado += espacio;
-                    //Si usuario mete otro dígito, saldrá con el relleno de números.
+                    //Si usuario mete otro dï¿½gito, saldrï¿½ con el relleno de nï¿½meros.
                 } else {
                     cadenaResultado += i + rellena;
                 }
@@ -88,7 +88,7 @@ public class Ejercicio5 {
             cadenaResultado += lineaVertical + "\n"; //Columna derecha
         }
 
-        //Línea inferior
+        //LÃ­nea inferior
         cadenaResultado += esquina; //esquina inferior derecha 
         //Indico que el bucle comience en dos para que no pise las esquinas (+)
         for (int i = 2; i < numeroColumnas; i++) {
@@ -97,8 +97,8 @@ public class Ejercicio5 {
         }
         cadenaResultado += esquina + "\n";//esquina inferior izquierda
 
-        //Utilizo operador ternario para que me devuelva el valor que pida el usuario por pantalla. Si quiere la caja vacía o rellena.
-        tipoCaja = (rellenoCaja == 0) ? "vacía" : "rellena";
+        //Utilizo operador ternario para que me devuelva el valor que pida el usuario por pantalla. Si quiere la caja vacÃ­a o rellena.
+        tipoCaja = (rellenoCaja == 0) ? "vacÃ­a" : "rellena";
 
         //-----------------------------------------------------------
         //                 Salida de resultados
@@ -106,7 +106,7 @@ public class Ejercicio5 {
         System.out.println();
         System.out.println("RESULTADO");
         System.out.println("---------");
-        System.out.println("Caja de tamaño " + numeroFilas + "X" + numeroColumnas + " " + tipoCaja + ":");
+        System.out.println("Caja de tamaÃ±o " + numeroFilas + "X" + numeroColumnas + " " + tipoCaja + ":");
         System.out.println(cadenaResultado);
         
         

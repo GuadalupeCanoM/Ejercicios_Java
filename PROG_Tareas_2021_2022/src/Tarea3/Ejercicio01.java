@@ -12,9 +12,7 @@ import libtarea3.CuentaBancaria;
  */
 public class Ejercicio01 {
 
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
         //----------------------------------------------
         //          Declaración de variables 

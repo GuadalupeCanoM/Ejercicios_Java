@@ -15,10 +15,10 @@ public class Ejercicio3 {
          public static void main(String[] args) {
 
       //----------------------------------------------
-        //          Declaración de variables 
+        //          Declaraciï¿½n de variables 
         //----------------------------------------------
         // Constantes
-        //Para evitar magic values asigno cada valor en una constante. Uso constante porque en la baraja española por ej el As siempre va a valer 11 puntos.
+        //Para evitar magic values asigno cada valor en una constante. Uso constante porque en la baraja espaÃ±ola por ej el As siempre va a valer 11 puntos.
         final int VALOR_AS = 11, VALOR_TRES = 10, VALOR_SOTA = 2, VALOR_CABALLO = 3, VALOR_REY = 4, SIN_VALOR = 0;
 
         // Variables de entrada
@@ -28,7 +28,7 @@ public class Ejercicio3 {
 
         // Variables de salida
         // Variables auxiliares
-        // Clase Scanner para petición de datos de entrada
+        // Clase Scanner para peticiï¿½n de datos de entrada
         Scanner teclado = new Scanner(System.in);
 
         //----------------------------------------------
@@ -36,7 +36,7 @@ public class Ejercicio3 {
         //----------------------------------------------
         System.out.println("VALOR DE UN NAIPE EN EL TUTE");
         System.out.println("----------------------------");
-        System.out.print("Introduzca número (1-7, 10-12):");
+        System.out.print("Introduzca nï¿½mero (1-7, 10-12):");
         numeroCarta = teclado.nextInt();
 
         //------------------------------------------------------     
@@ -72,7 +72,7 @@ public class Ejercicio3 {
             case 7:
                 valorNaipe = SIN_VALOR;
                 break;
-            //Si no se escribe por pantalla ninguno de los cases anteriores, la salida de datos mostrará el valor que le he asignado a cartaNovalida (-1).
+            //Si no se escribe por pantalla ninguno de los cases anteriores, la salida de datos mostrarÃ¡ el valor que le he asignado a cartaNovalida (-1).
             default:
                 valorNaipe = cartaNoValida;
 
@@ -84,7 +84,7 @@ public class Ejercicio3 {
         System.out.println();
         System.out.println("RESULTADO");
         System.out.println("---------");
-        System.out.println("El valor del  naipe con ese número es: " + valorNaipe);
+        System.out.println("El valor del  naipe con ese nï¿½mero es: " + valorNaipe);
         
       
     }

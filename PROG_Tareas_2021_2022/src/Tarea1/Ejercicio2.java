@@ -3,9 +3,6 @@ package Tarea1;
 
 import java.util.Scanner;
 
-
-
-
 /**
  *
  * @author Guadalupe Cano Moyano
@@ -15,7 +12,7 @@ public class Ejercicio2 {
     
          public static void main(String[] args) {
        //----------------------------------------------
-        //          Declaraci?n de variables 
+        //          DeclaraciÃ³n de variables 
         //----------------------------------------------
         // Constantes
         // Variables de entrada
@@ -33,29 +30,29 @@ public class Ejercicio2 {
         //----------------------------------------------
         //                Entrada de datos 
         //----------------------------------------------
-        System.out.println("C?LCULOS ARITMÉTICOS");
+        System.out.println("C?LCULOS ARITMÃ‰TICOS");
         System.out.println("--------------------");
-        System.out.println("Introduzca dos números reales: ");
-        System.out.println("Primer número: ");
+        System.out.println("Introduzca dos nÃºmeros reales: ");
+        System.out.println("Primer nÃºmero: ");
         primerNumero = teclado.nextDouble();
-        System.out.print("Segundo número: ");
+        System.out.print("Segundo nÃºmero: ");
         segundoNumero = teclado.nextDouble();
 
         //----------------------------------------------
         //                 Procesamiento 
         //----------------------------------------------
-        // Primer cálculo: triple del primer n?mero
+        // Primer cÃ¡lculo: triple del primer nÃºmero
         triplePrimerNumero = primerNumero * 3.0;
 
-        // Segundo cálculo: d?cima parte del segundo n?mero
+        // Segundo cÃ¡lculo: d?cima parte del segundo n?mero
         decimaParteSegundoNumero = segundoNumero / 10.0;
 
-        // Tercer cálculo: cuadrado del doble del producto de ambos números
+        // Tercer cÃ¡lculo: cuadrado del doble del producto de ambos nÃºmeros
         resultado1 = (primerNumero * primerNumero) * 2;
         resultado2 = (segundoNumero * segundoNumero) * 2;
         cuadradoDobleDelProducto = resultado1 * resultado2;
 
-        // Cuarto c?lculo: mitad del cuadrado de la suma de ambos números
+        // Cuarto cÃ¡lculo: mitad del cuadrado de la suma de ambos nÃºmeros
         mitadCuadradoSuma = (primerNumero + segundoNumero) * (primerNumero + segundoNumero) / 2.0;
 
         //----------------------------------------------

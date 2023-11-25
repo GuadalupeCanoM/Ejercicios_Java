@@ -4,7 +4,6 @@ package Tarea1;
 import java.util.Scanner;
 
 
-
 /**
  *
  * @author Guadalupe Cano Moyano
@@ -30,9 +29,9 @@ public class Ejercicio3 {
         //----------------------------------------------
         //                Entrada de datos 
         //----------------------------------------------
-        System.out.println("AN�LISIS DE UN N�MERO");
+        System.out.println("ANÁLISIS DE UN NÚMERO");
         System.out.println("---------------------");
-        System.out.println("Introduzca un n�mero entero");
+        System.out.println("Introduzca un número entero");
         numero = teclado.nextInt();
 
         //----------------------------------------------
@@ -57,10 +56,10 @@ public class Ejercicio3 {
         System.out.println();
         System.out.println("RESULTADO");
         System.out.println("---------");
-        System.out.println("?El n?mero es distinto a 0? " + distintoACero);
-        System.out.println("?El n?mero es negativo? " + esNegativo);
-        System.out.println("?El n?mero est? entre cero y diez (ambos inclusive)? " + entreCeroYDiez);
-        System.out.println("?El n?mero es m?ltiplo de tres, positivo y menor que veinte? " + MultiploDeTresPositivoMenorDeVeinte);
+        System.out.println("¿El número es distinto a 0? " + distintoACero);
+        System.out.println("¿El número es negativo? " + esNegativo);
+        System.out.println("¿El número está entre cero y diez (ambos inclusive)? " + entreCeroYDiez);
+        System.out.println("¿El número es múltiplo de tres, positivo y menor que veinte? " + MultiploDeTresPositivoMenorDeVeinte);
 
         System.out.println();
         System.out.println("Fin del programa.");
