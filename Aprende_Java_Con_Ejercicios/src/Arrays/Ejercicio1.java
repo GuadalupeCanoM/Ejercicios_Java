@@ -27,7 +27,7 @@ public class Ejercicio1 {
         for (int i = 0; i < 12; i++) {
             System.out.printf("num[%d]: %d\n", i, num[i]);
         }
-
+        // Los valores que no se inicializan tendrán valor 0
     }
 
 }
